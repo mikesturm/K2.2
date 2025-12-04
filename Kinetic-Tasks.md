@@ -1,0 +1,272 @@
+- [ ] ^t7^ Attachment A next steps #P1 #today
+     - [ ] ^t8^ Update report so it incorporates the Sourcing Stocking Program Smartsheet Zach linked up #asap
+     - [x] ^t9^ Review Emerson Test Att. A with Dave to see if there’s issues with non-stocked parts jumping in and adding unnecessary commitments #asap
+          - I told Gregg I did this last week and it was good
+     - [x] ^t10^ Review Elkay test with Nick for the same issue
+		- I told Gregg I did this last week and it was good
+	- [x] ^t10^ Review Elkay test with Nick for the same issue ✅ 2025-11-20
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+		- I told Gregg I did this last week and it was good
+- [ ] ^t11^ Call Orville Quante about broken baffle. #nextfewdays
+- [ ] ^t12^ Submit McMaster-Carr deal to sourcing and await review. #nextfewdays
+- [ ] ^t13^ Set meeting with Jane (Resideo update) #Commitment #who-JaneWu #today
+- [ ] ^t14^ Schedule meeting with Melissa & Jake to go over Attachment A process for AMs to run & review with Reps #P1 #asap
+- [ ] ^t15^ Review Morgan cost savings ppt & Ronnie's email and decide how to proceed #asap
+- [x] ^t2^ Talk to Eduardo about his accounts on the Round 2 sheet #P2 #asap
+- [x] ^t3^ Provide & a list of OTIS parts we directly import and what the est. tariff impact is (📅 2025-11-20 ) @Dale @Gregg #today ✅ 2025-11-24
+	- Start with the FMP for OTIS with sell prices
+- [x] ^t4^ Take Dale's buckets document and update it to reflect new tariffs @priority(high) #today ✅ 2025-11-24
+	- Documents: 
+		- Copy of OTIS Part COO Detail Nov 2025.xlsx: List of parts we originally gave Otis in June 2025 with COO information
+- [x] ^t5^ Send Evan, Antwan, and Kevin a Morgan Monobolts agreement ✅ 2025-11-20
+- [x] ^t6^ Ask Jake if an issue got entered for the Vanguard shutdown from last week. For @BryceAtor #today
+- [ ] ^t16^ Use Boltwise to quote the 2 Morgan parts #P5 and give feedback to @Karla #tomorrow
+     - Evaluation for Karla:
+          - Both parts were immediately recognized by Boltwise from ONLY Morgan's part number.
+          - Costs weren't correct to her quote to me, but matched P21. 
+          - No supplier, though.
+          - When I clicked "Find supplier items" button, it clearly did a search...but it lasted for well over a minute with bars just scrolling...
+          - When I clicked "View Item Details", I could see the price and all that, but couldn't change it.
+- [ ] ^t18^ Compare Trinity Actual Surcharges to what proper calculations would be and let Gregg know what I've found. () #nextfewdays
+- [ ] ^t19^ Make sure Nick gets a reply to Elkay on inventory language #nextfewdays
+- [x] ^t20^ Complete a Kelvion Bucket Summary for Dale (requested 11/20) #tomorrow
+     - They're not getting a rd. 2 surcharge due to high margin. Goal is to just give a % of their spend in each category NOT increase %. I can "thumbnail it". Then take the 
+     - [x] ^t38^ Pull Kelvion FMP
+     - [x] ^t39^ Pull suppliers into "Tariff Rd.2 Positioning Statement Data.xlsx"
+- [ ] ^t23^ Send Gregg an email on the 3PL/FTZ debacle #tomorrow
+	- (Use Outlook "In Bond Project" folder)
+	- Customers we've committed to 
+	- I should put in the overall $ amount at stake
+	- Customers in scope
+  * Customers in scope
+- [x] ^t28^ preamble to email about Otis:
+- [ ] ^t29^ Ask Brad to get me on the huddle for next week to discuss Tariff Surcharges Rd. 2 update #P2 #today
+- [x] ^t30^ Set up mtg with Ant. for tomorrow or ASAP on #P5 #today
+- [ ] ^t31^ Set the Attachment A meeting with Jake & Melissa & refine plan #P1 #today
+- [x] ^t32^ Go to Bobby and get OTIS item contract prices, then bounce of Working sheet for new pricing & send to Dale #asap
+- [x] ^t33^ Get scratchies for Thanksgiving dinner #today
+- [x] ^t34^ Come up with a unique gratitude exercise for us to do #today
+- [ ] ^t35^ Buy the specific paint color we need for kitchen from Home Depot #today
+- [x] ^t36^ Get scratchies for Thanksgiving dinner #today
+
+- [x] ^t37^ start a project to map out practices and plays for Art Sadler basketball (Nov 30, 2025 at 10:21 AM) #tomorrow
+- [x] ^t40^ Review team calendars and submit schedule requests via the website within two weeks.
+- [x] ^t41^ Check the league website every Thursday for schedule updates or changes; ensure coach contact info (cell and email) is current for urgent notices.
+- [ ] ^t42^ Verify all players are registered on the official roster to be eligible to play; communicate roster requirements to parents.
+- [x] ^t43^ Inform parents of the coach’s last name to help with team identification and uniform distribution.
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+- [ ] ^t44^ Fill out some legal documents (Will, etc.) with Erin at https://www.clclegalforms.com/clc/index.cfm?event=base:personaldocuments
+- [ ] ^t45^ Send Malhar the list of Autocar parts we have a paper trail for of tariffs (Direct Import) and the estimated piece price impact of sec. 232 tariffs
+			- Also needs HTS codes & COOs.
+		- 
+- [ ] ^t46^ Email Adam, Pauli, and Gregg about the Sec. 232 offset program and ask if other customers have mentioned it.
+      There's fertile ground for good refunds for us: https://www.bdo.com/insights/tax/new-section-232-tariffs-on-trucks-and-buses-take-effect-offset-program-extended-through-2030#:~:text=Starting%20November%201%2C%202025%2C%20new,applied%20through%20April%2030%2C%202027.
+- [ ] ^t47^ set an (internal) implementation meeting for Monobolts #asap
+- [ ] ^t48^ set an SAP meeting for Morgan Corp
+- [ ] ^t49^ test task
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+- [ ] ^t50^ Send email to Art Sadler Roster contacts #P12
+- [ ] ^t51^ Spend 1 hour writing Kyle's PA #P3
+- [ ] ^t52^ Get an understanding from Nick & Chelsey why we ran out of 1022185 for Honeywell
+     - And is there anything to Antonio's accusation that Field is **_failing to meet the minimum levels established in our Min/Max program_*
+- [ ] ^t53^ Block out time to write PA #asap
+- [ ] ^t54^ Send PA draft to leader and HR for review *please send the draft for review directly to Tina Rittner at [tinar@fieldfastener.com](mailto:tinar@fieldfastener.com) #asap
+- [ ] ^t55^ Schedule meeting with TM to deliver PA prior to due date – give advance notice #asap
+- [x] ^t56^ Encourage your TM to complete the PA Self-Assessment Form, found in the Performance Appraisal_Feedback Forms folder.
+- [ ] ^t57^ Send completed and signed PA to HR at [hr@fieldfastener.com](mailto:hr@fieldfastener.com) #asap
+ `- [x] ^t1^ Create a Cost Savings proposal… #P5 #asap ✅ 2025-11-20`
+- [x] ^t1^ Create a Cost Savings proposal to push on Antwan, based on VMI & Inventory reduction #P5 #asap
