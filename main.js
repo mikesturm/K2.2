@@ -2,15 +2,63 @@ const { Plugin, TFile, Notice } = require('obsidian');
 
 // Configuration
 const S3_TAGS = ['today', 'asap', 'tomorrow', 'nextfewdays', 'week', 'month', 'later'];
+const S3_VIEW_PATH = 'S3-View.md';
 const TASK_ID_REGEX_GLOBAL = /\^t(\d+)\^/g; // for matchAll
 const TASK_ID_REGEX = /\^t(\d+)\^/;        // non-global for single match
 const TIMESTAMP_REGEX = /TS(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})/;
+const TAG_RULES_PATH = 'Tag-Rules.yaml';
 
 // Helper: trim trailing blank lines from a block (prevents "extra vertical space" in generated views)
 function trimTrailingBlankLines(block) {
   let end = block.length;
   while (end > 0 && block[end - 1].trim().length === 0) end--;
   return block.slice(0, end);
+}
+
+function normalizeTag(tag) {
+  if (!tag) return null;
+  const trimmed = tag.trim();
+  if (trimmed.length === 0) return null;
+  return (trimmed.startsWith('#') ? trimmed : '#' + trimmed).toLowerCase();
+}
+
+function escapeRegex(text) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function parseExclusiveTagGroups(yamlText) {
+  const groups = [];
+  const lines = yamlText.split(/\r?\n/);
+  let inExclusive = false;
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+
+    if (line.length === 0) continue;
+
+    if (/^exclusive:/i.test(line)) {
+      inExclusive = true;
+      continue;
+    }
+
+    if (!inExclusive) continue;
+
+    if (!line.startsWith('-')) {
+      // Exit the exclusive section when indentation changes
+      inExclusive = false;
+      continue;
+    }
+
+    const tags = Array.from(line.match(/#?[A-Za-z0-9_-]+/g) || [])
+      .map(normalizeTag)
+      .filter(Boolean);
+
+    if (tags.length > 0) {
+      groups.push(new Set(tags));
+    }
+  }
+
+  return groups;
 }
 
 // Helper: get task block including subtasks
@@ -168,7 +216,13 @@ class TaskIndex {
 
       // Extract timestamp
       const tsMatch = (block[0] || '').match(TIMESTAMP_REGEX);
-      const timestamp = tsMatch ? new Date(tsMatch[1]) : new Date(0);
+
+      // Treat S3-View edits as canonical by giving them the newest timestamp.
+      // This ensures manual changes in the view aren't overwritten by older copies elsewhere.
+      let timestamp = tsMatch ? new Date(tsMatch[1]) : new Date(0);
+      if (file.path === S3_VIEW_PATH) {
+        timestamp = new Date(8640000000000000); // Max Date supported by JS
+      }
 
       const task = new Task(id, block, file, i, timestamp);
 
@@ -229,7 +283,6 @@ class SmartLedger {
     this.app = app;
     this.syncEngine = syncEngine;
     this.ledgerPath = 'Kinetic-Ledger.md';
-    this.s3ViewPath = 'S3-View.md';
   }
 
   _pushTask(contentArr, task) {
@@ -300,7 +353,7 @@ class SmartLedger {
     for (const tag of S3_TAGS) {
       const tagTasks = tasks.filter(t => t.s3Tag === tag);
 
-      content.push('## ' + tag + ' (' + tagTasks.length + ')');
+      content.push('## ' + tag + ' (' + tagTasks.length + ') #' + tag);
       content.push('');
 
       if (tagTasks.length === 0) {
@@ -323,13 +376,13 @@ class SmartLedger {
       noTagTasks.forEach(task => this._pushTask(content, task));
     }
 
-    const s3File = this.app.vault.getAbstractFileByPath(this.s3ViewPath);
+    const s3File = this.app.vault.getAbstractFileByPath(S3_VIEW_PATH);
     const finalContent = content.join('\n');
 
     if (s3File) {
       await this.app.vault.modify(s3File, finalContent);
     } else {
-      await this.app.vault.create(this.s3ViewPath, finalContent);
+      await this.app.vault.create(S3_VIEW_PATH, finalContent);
     }
 
     new Notice('S3 View updated: ' + tasks.length + ' active tasks');
@@ -458,6 +511,34 @@ class SyncEngine {
     this.isSyncing = false;
     this.pendingFiles = new Set();
     this.syncTimer = null;
+    this.exclusiveTagGroups = [new Set(S3_TAGS.map(tag => '#' + tag))];
+    this.tagRulesLoaded = false;
+  }
+
+  async ensureTagRulesLoaded() {
+    if (this.tagRulesLoaded) return;
+    this.tagRulesLoaded = true;
+
+    const rulesFile = this.plugin.app.vault.getAbstractFileByPath(TAG_RULES_PATH);
+    if (!rulesFile) return;
+
+    try {
+      const yamlText = await this.plugin.app.vault.read(rulesFile);
+      const parsedGroups = parseExclusiveTagGroups(yamlText);
+
+      if (parsedGroups.length > 0) {
+        this.exclusiveTagGroups = parsedGroups;
+      }
+    } catch (err) {
+      console.error('Kinetic: Failed to parse Tag-Rules.yaml', err);
+    }
+  }
+
+  getExclusiveGroupForTag(tag) {
+    const normalized = normalizeTag(tag);
+    if (!normalized) return null;
+
+    return this.exclusiveTagGroups.find(group => group.has(normalized)) || null;
   }
 
   scheduleSync(file) {
@@ -499,6 +580,7 @@ class SyncEngine {
   }
 
   async syncFile(file) {
+    await this.ensureTagRulesLoaded();
     await this.assignTaskIds(file);
     await this.applyHeaderContexts(file);
     await this.index.indexFile(file);
@@ -571,9 +653,19 @@ class SyncEngine {
           header = header + ' ' + context.project;
         }
 
-        // Apply S3 tag if context has one and task doesn't
-        if (context.s3 && !hasExplicitS3) {
-          header = header + ' ' + context.s3;
+        // Apply S3 tag if context has one; if it's part of an exclusive set, replace existing members
+        if (context.s3) {
+          const exclusiveGroup = this.getExclusiveGroupForTag(context.s3);
+
+          if (exclusiveGroup) {
+            exclusiveGroup.forEach(tag => {
+              const pattern = new RegExp('#' + escapeRegex(tag.replace(/^#/, '')) + '\\b', 'gi');
+              header = header.replace(pattern, '');
+            });
+            header = header + ' ' + context.s3;
+          } else if (!hasExplicitS3) {
+            header = header + ' ' + context.s3;
+          }
         }
 
         if (header !== original) {
