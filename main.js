@@ -306,7 +306,7 @@ class SmartLedger {
     for (const tag of S3_TAGS) {
       const tagTasks = tasks.filter(t => t.s3Tag === tag);
 
-      content.push('## ' + tag + ' (' + tagTasks.length + ')');
+      content.push('## ' + tag + ' (' + tagTasks.length + ') #' + tag);
       content.push('');
 
       if (tagTasks.length === 0) {
