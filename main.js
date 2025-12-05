@@ -656,8 +656,23 @@ class SyncEngine {
         // Apply S3 tag if context has one; if it's part of an exclusive set, replace existing members
         if (context.s3) {
           const exclusiveGroup = this.getExclusiveGroupForTag(context.s3);
+          const normalizedContext = normalizeTag(context.s3);
 
+          // If another exclusive tag is already present and differs, respect it unless this is the S3 View
+          let existingExclusive = null;
           if (exclusiveGroup) {
+            for (const tag of exclusiveGroup) {
+              const pattern = new RegExp('#' + escapeRegex(tag.replace(/^#/, '')) + '\\b', 'i');
+              if (pattern.test(header)) {
+                existingExclusive = normalizeTag(tag);
+                break;
+              }
+            }
+          }
+
+          if (exclusiveGroup && existingExclusive && existingExclusive !== normalizedContext && file.path !== S3_VIEW_PATH) {
+            // Keep the explicit exclusive tag already present in this file
+          } else if (exclusiveGroup) {
             exclusiveGroup.forEach(tag => {
               const pattern = new RegExp('#' + escapeRegex(tag.replace(/^#/, '')) + '\\b', 'gi');
               header = header.replace(pattern, '');
