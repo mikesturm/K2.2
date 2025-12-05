@@ -2,6 +2,7 @@ const { Plugin, TFile, Notice } = require('obsidian');
 
 // Configuration
 const S3_TAGS = ['today', 'asap', 'tomorrow', 'nextfewdays', 'week', 'month', 'later'];
+const S3_VIEW_PATH = 'S3-View.md';
 const TASK_ID_REGEX_GLOBAL = /\^t(\d+)\^/g; // for matchAll
 const TASK_ID_REGEX = /\^t(\d+)\^/;        // non-global for single match
 const TIMESTAMP_REGEX = /TS(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})/;
@@ -168,7 +169,13 @@ class TaskIndex {
 
       // Extract timestamp
       const tsMatch = (block[0] || '').match(TIMESTAMP_REGEX);
-      const timestamp = tsMatch ? new Date(tsMatch[1]) : new Date(0);
+
+      // Treat S3-View edits as canonical by giving them the newest timestamp.
+      // This ensures manual changes in the view aren't overwritten by older copies elsewhere.
+      let timestamp = tsMatch ? new Date(tsMatch[1]) : new Date(0);
+      if (file.path === S3_VIEW_PATH) {
+        timestamp = new Date(8640000000000000); // Max Date supported by JS
+      }
 
       const task = new Task(id, block, file, i, timestamp);
 
@@ -229,7 +236,6 @@ class SmartLedger {
     this.app = app;
     this.syncEngine = syncEngine;
     this.ledgerPath = 'Kinetic-Ledger.md';
-    this.s3ViewPath = 'S3-View.md';
   }
 
   _pushTask(contentArr, task) {
@@ -323,13 +329,13 @@ class SmartLedger {
       noTagTasks.forEach(task => this._pushTask(content, task));
     }
 
-    const s3File = this.app.vault.getAbstractFileByPath(this.s3ViewPath);
+    const s3File = this.app.vault.getAbstractFileByPath(S3_VIEW_PATH);
     const finalContent = content.join('\n');
 
     if (s3File) {
       await this.app.vault.modify(s3File, finalContent);
     } else {
-      await this.app.vault.create(this.s3ViewPath, finalContent);
+      await this.app.vault.create(S3_VIEW_PATH, finalContent);
     }
 
     new Notice('S3 View updated: ' + tasks.length + ' active tasks');
