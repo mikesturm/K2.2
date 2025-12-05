@@ -1,0 +1,10 @@
+{
+  "id": "kinetic-suite",
+  "name": "Kinetic Suite",
+  "version": "2.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Smart task management with S3 board and AI ledger",
+  "author": "Mike Sturm",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

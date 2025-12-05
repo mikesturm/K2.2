@@ -1,0 +1,9 @@
+{
+  "id": "people-mover",
+  "name": "People Mover",
+  "version": "0.1.0",
+  "minAppVersion": "0.13.0",
+  "description": "Consolidate @ mentions into a people ledger",
+  "author": "Mike Sturm + ChatGPT",
+  "isDesktopOnly": false
+}

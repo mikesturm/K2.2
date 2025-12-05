@@ -1,0 +1,9 @@
+{
+  "id": "kinetic-projects-ledger",
+  "name": "Kinetic Projects Ledger",
+  "version": "0.2.0",
+  "minAppVersion": "0.13.0",
+  "description": "Generate the Existing Projects section in Projects.md from the Kinetic tasks ledger, using the Project Index table.",
+  "author": "Mike + ChatGPT",
+  "isDesktopOnly": false
+}

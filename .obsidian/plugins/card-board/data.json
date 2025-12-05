@@ -1,0 +1,78 @@
+{
+  "version": "0.13.0",
+  "data": {
+    "boardConfigs": [
+      {
+        "columns": [
+          {
+            "tag": "namedTag",
+            "data": {
+              "collapsed": false,
+              "name": "Up Next",
+              "tag": "asap"
+            }
+          },
+          {
+            "tag": "namedTag",
+            "data": {
+              "collapsed": false,
+              "name": "After that",
+              "tag": "tomorrow"
+            }
+          },
+          {
+            "tag": "namedTag",
+            "data": {
+              "collapsed": false,
+              "name": "Next Few Days",
+              "tag": "nextfewdays"
+            }
+          },
+          {
+            "tag": "namedTag",
+            "data": {
+              "collapsed": false,
+              "name": "The Coming Week",
+              "tag": "week"
+            }
+          },
+          {
+            "tag": "untagged",
+            "data": {
+              "collapsed": true,
+              "name": "Untagged"
+            }
+          }
+        ],
+        "filters": [
+          {
+            "tag": "fileFilter",
+            "data": "Tasks/Kinetic-Tasks.md"
+          }
+        ],
+        "filterPolarity": "Allow",
+        "filterScope": "Both",
+        "name": "S3 Board",
+        "showColumnTags": true,
+        "showFilteredTags": false
+      }
+    ],
+    "globalSettings": {
+      "defaultColumnNames": {
+        "today": "",
+        "tomorrow": "",
+        "future": "",
+        "undated": "",
+        "otherTags": "",
+        "untagged": "",
+        "completed": ""
+      },
+      "filters": [],
+      "firstDayOfWeek": "FromLocale",
+      "ignoreFileNameDates": false,
+      "taskCompletionFormat": "ObsidianCardBoard",
+      "taskCompletionInLocalTime": true,
+      "taskCompletionShowUtcOffset": true
+    }
+  }
+}

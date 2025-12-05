@@ -1,0 +1,13 @@
+{
+  "showCardMetadata": true,
+  "showSubtasksByDefault": false,
+  "collapsedS3Columns": [],
+  "collapsedProjects": [
+    "P1",
+    "P2",
+    "P5",
+    "No Project"
+  ],
+  "autoFullSyncOnLoad": false,
+  "autoFullSyncOnLedgerSave": true
+}

@@ -1,0 +1,17 @@
+{
+  "firstSync": true,
+  "githubToken": "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",
+  "githubOwner": "mikesturm",
+  "githubRepo": "K2",
+  "githubBranch": "main",
+  "syncStrategy": "manual",
+  "syncInterval": 1,
+  "syncOnStartup": false,
+  "syncConfigDir": false,
+  "conflictHandling": "ask",
+  "conflictViewMode": "default",
+  "showStatusBarItem": true,
+  "showSyncRibbonButton": true,
+  "showConflictsRibbonButton": true,
+  "enableLogging": true
+}
